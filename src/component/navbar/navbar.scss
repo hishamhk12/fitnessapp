@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+      h1{
+        position: relative;
+        bottom: -45px;
+        right: -48px;
+        font-family: 'Jockey One', sans-serif;
+        font-size: xx-large;
+        color: #FFF200;
+        font-weight: 100;
+        
+      }
+    nav{
+        display: flex;
+        justify-content: end;
+    ul{
+        display: flex;
+        
+        li{
+            display: flex;
+            font-size: 25px;
+            padding: 12px;
+            font-family: 'Jockey One', sans-serif;
+            font-weight: 100;
+            color: white;
+            
+        }
+    }
+}
+}

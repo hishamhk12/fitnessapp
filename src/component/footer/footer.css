@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+h3 {
+  position: absolute;
+  left: 200px;
+  top: 610px;
+  font-family: "Jockey One", sans-serif;
+  font-weight: lighter;
+  font-size: x-large;
+}
+
+.m {
+  position: relative;
+  left: 200px;
+  bottom: 88px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.m2 {
+  position: relative;
+  left: 193px;
+}
+
+.n1 {
+  position: relative;
+  left: 185px;
+  border: 2px solid white;
+}
+
+.btn {
+  position: relative;
+  left: 240px;
+  bottom: 100px;
+  cursor: pointer;
+  font-family: "Jockey One", sans-serif;
+  font-weight: lighter;
+  border: 1px solid white;
+  width: 190px;
+  font-size: larger;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+.c {
+  position: relative;
+  bottom: 50px;
+  margin-left: 1300px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  display: block;
+  opacity: 0;
+}
+
+label {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  display: inline-block;
+  background: #666666;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 30px;
+  height: 30px;
+  background-color: #FFF200;
+  border-radius: 50%;
+  box-shadow: 1px 3px 6px #666666;
+}
+
+input:checked + label {
+  background: #2c302c;
+}
+
+input:checked + label:after {
+  left: auto;
+  right: 2px;
+}
+
+h6 {
+  color: #FFF200;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 5px;
+  font-family: "Jockey One", sans-serif;
+  padding-left: 5px;
+}/*# sourceMappingURL=footer.css.map */
